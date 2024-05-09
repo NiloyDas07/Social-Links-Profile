@@ -42,7 +42,7 @@ p {
 }
 
 body {
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   padding: 1rem;
   background-color: var(--clr-viewport-background);
@@ -96,7 +96,6 @@ header {
 .social-link-group {
   width: 95%;
   gap: 1rem;
-  
 }
 
 .social-link {
@@ -107,7 +106,7 @@ header {
   font-weight: 600;
 }
 
-.social-link:hover, 
+.social-link:hover,
 .social-link:focus {
   cursor: url("./assets/images/cursor.svg"), auto;
   background-color: var(--clr-accent-2);
